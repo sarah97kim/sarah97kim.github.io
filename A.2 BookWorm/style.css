@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #WHITE;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+nav{
+  background: white;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  color: #333333;
+
+}
+nav ul{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+nav ul li{
+  font-size: 15px;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.logo{
+  width: 100px;
+}
+
+.bookstore{
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+.signup{
+  background-color: #0F73D1;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+nav a{
+  color: #fbfbfb;
+  background-color: #F37CAA;
+  padding: 10px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover{color: black;}
+
+.container{
+  position: relative;
+}
+
+.text-block{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:40px;
+  left: 700px;
+  background-color: #FFE6C0;
+  font-family:'Montserrat', sans-serif;
+}
+
+header p{
+  margin: 50px 0px;
+  font-size: 18px;
+  width: 50%;
+}
+
+header h1{
+  font-size: 30px;
+}
+
+header button{
+  color: #fbfbfb;
+  padding: 10px 30px;
+  background-color: #0F73D1;
+  border: none;
+  border-radius: 30px;
+
+}
+.textbutton{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.textbutton:hover{color:#F2CE17;}
+
+main{
+  display: inline-block;
+  margin-right: 20%;
+  margin-left: 15%;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: flex-start;
+  color: #333333;
+}
+
+main ul{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}

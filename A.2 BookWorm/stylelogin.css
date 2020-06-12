@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  padding-left:10%;
+  padding-right:10%;
+}
+
+.triangle{
+  position: fixed;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem;
+  padding: 0 2rem;
+
+}
+
+.img{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login-container{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+form{
+  width: 360px;
+}
+
+.welcome{
+  width: 300px;
+
+}
+
+.brand{
+  width: 500px
+}
+
+form h2{
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 15px, 0;
+  color: #333
+
+}
+h5{
+  font-size: 20px;
+}
+.input-div{
+  display: grid;
+  grid-template-columns: 7% 93%;
+  margin: 25px 0;
+  padding: 5px 0;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.input-div.one{
+  margin-top: 0;
+
+}
+
+.input-div.two{
+  margin-bottom: 4px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #333;
+  transition: color 0.3s;
+}
+a:hover {color: #F37CAA;}
+
+.input-div > div{
+  position: relativ;
+  height: 45px;
+}
+
+.input-div > div h5{
+  position: absolute;
+  top: 50%
+  transform: translateY(-50%)
+  color: #999;
+  font-size:19px;
+  transition: 0.3s;
+}
+
+.input{
+  position: absolute;
+
+
+  font-size: 1.2rem;
+  font-family: 'Montserrat,' sans-serif;
+  color: #555;
+
+}
+button{
+  color: #fbfbfb;
+  padding: 10px 30px;
+  background-color: #0F73D1;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  margin-left:90px;
+}
+
+button .textbutton{
+  color:white;
+  font-size:17px;
+
+}
