@@ -379,6 +379,19 @@ form input{
 }
 
 
+.contact-btn{
+  padding: 18px 40px;
+  background: #54294E;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: Bold;
+  color: white;
+  margin-top: 40px;
+}
+
 /* footer crap*/
 
 #footer{
@@ -462,30 +475,41 @@ hr{
   }
 
   #vehicle .vehicle-text{
-    max-width: 400px;
-    margin-right: 40px;
+
+    margin-left: -2px;
     display: inline-block;
-    text-align: right;
+    text-align: left;
+    max-width: 300px;
+    padding-left: 30px;
   }
+
+
+
+  .square{
+    height: 5px;
+    width: 200px;
+    display: inline-block;
+    background:#79E5CA;
+    margin: 15px 0;
+  }
+
 
 
   .vehicle-text h2{
 
-    font-size: 40px;
+    font-size: 25px;
     color:#562F4F;
   }
 
 
 #contract .contract-col {
   flex-basis: 100%;
-  margin-bottom: 50px;
-  margin-left: 250px;
+  margin-bottom: 40px;
+
   margin-top:70px;
 }
 
-#contract button{
-  margin-left: 250px;
-}
+
 
 .payment-left-col{
   flex-basis: 100%;
@@ -512,7 +536,21 @@ hr{
 }
 
 #coverage img{
-  width: 400px;
+  width: 100%;
+  margin-left: -100px;
+  margin-top: 55px;
+}
+
+
+.coverage-text{
+  max-width: 300px;
+
+
+}
+
+.coverage-text h2{
+  font-size: 25px;
+  color:#562F4F;
 }
 
 form .contact-right-col{
@@ -525,17 +563,65 @@ form .contact-left-col{
 }
 
 .contact-right-col img{
-  display: none;
+  width: 300px;
 
 }
-form{
-  margin-left: 10px;
+
+
+.footer-left-col{
+  flex-basis: 100%;
 }
 
-#footer{
-  display: none;
+#payment .vehicle-right-col .vehicle-text{
+  flex-basis: 50%;
+  text-align: left;
+  max-width: 300px;
+  margin-left: -5px;
+  padding-left: 40px;
+  display: inline-block;
+}
+
+.vehicle-text p{
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.vehicle-text h2{
+
+  font-size: 25px;
+  color:#562F4F;
+}
+
+.contact-left-col h2{
+  font-size: 25px;
+  color:#562F4F;
+  padding-top: 70px;
+}
+
+.contact-btn{
+  padding: 18px 40px;
+  background: #562F4F;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: Bold;
+  color: white;
+  width: 300px;
+}
+
+.footer-title h4{
+  font-size: 13px;
+  margin-bottom: 10px;
 }
 
 
+
+.footer-title{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+
+}
 
 }
